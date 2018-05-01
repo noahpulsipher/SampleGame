@@ -19,7 +19,7 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <Optimize>true</Optimize>
@@ -41,6 +41,10 @@
     <Compile Include="Controller\Program.cs" />
     <Compile Include="Controller\SpaceGame.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Enemy.cs" />
+    <Compile Include="Model\Projectile.cs" />
+    <Compile Include="View\Animation.cs" />
+    <Compile Include="View\ParallaxingBackground.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />
