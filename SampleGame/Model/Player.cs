@@ -49,7 +49,9 @@ namespace SampleGame.Model
 
 		public Player()
 		{
+			
 		}
+
 
 		// Initialize the player
 		public void Initialize(Animation animation, Vector2 position)

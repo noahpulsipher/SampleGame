@@ -140,7 +140,7 @@ namespace SampleGame.Controller
 
 			// Load the player resources
 			Animation playerAnimation = new Animation();
-			Texture2D playerTexture = Content.Load<Texture2D>("Animation/shipAnimation");
+			Texture2D playerTexture = Content.Load<Texture2D>("Texture/player");
 			playerAnimation.Initialize(playerTexture, Vector2.Zero, 115, 69, 8, 30, Color.White, 1f, true);
 
 			Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
@@ -152,7 +152,7 @@ namespace SampleGame.Controller
 
 			mainBackground = Content.Load<Texture2D>("Texture/mainbackground");
 
-			enemyTexture = Content.Load<Texture2D>("Animation/mineAnimation");
+			enemyTexture = Content.Load<Texture2D>("Texture/mine");
 
 			projectileTexture = Content.Load<Texture2D>("Texture/laser");
 

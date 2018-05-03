@@ -55,6 +55,7 @@ namespace SampleGame.Model
 
 		public Projectile()
 		{
+			
 		}
 
 		public void Initialize(Viewport viewport, Texture2D texture, Vector2 position)
